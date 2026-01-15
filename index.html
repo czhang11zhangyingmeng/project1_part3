@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>project1 part3</title>
+
+    <style>
+    body {
+        background-image: url("image/sea.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 40px;
+        font-family: "Georgia", serif;
+        color: #1f2f2f;
+        line-height: 1.6;
+        
+         text-align: center;
+    }
+
+
+
+    h1 {
+        text-align: center;
+        font-size: 48px;
+        letter-spacing: 2px;              
+        color: #162b2b;
+        margin-bottom: 10px;
+        font-weight: 700;
+        text-shadow: 0 3px 10px rgba(0,0,0,0.3);
+        -webkit-text-stroke: 0.6px rgb(255, 249, 198);
+    }
+
+
+    h2 {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 60px;
+        border-bottom: 2px solid #18183e;
+        padding-bottom: 5px;
+        width: 300px;
+        -webkit-text-stroke: 0.7px rgb(255, 249, 198);
+        
+    }
+
+    p {
+        font-size: 18px;
+        text-align: center;
+        max-width: 700px;
+
+        padding: 15px;
+        margin: 20px auto;
+       
+    }
+
+
+    
+
+    span {
+        border: 1px solid black;
+        padding: 4px 8px;
+        background-color: #f0f0f0;
+        cursor: pointer;
+        
+    }
+
+    span:hover {
+        transform: scale(1.1);
+    }
+
+    img {
+        height: 300px;
+        margin: 20px 15px 20px 0;
+        border: 3px solid white;
+        box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4); 
+        
+    }
+
+    img:hover {
+        transform: scale(1.05);
+        box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
+    }
+
+
+    a {
+        text-decoration: none;
+    }
+
+    div {
+    
+        padding: 25px;
+        margin: 40px auto;
+        width: 600px;
+        border-radius: 10px;
+        font-style: italic;
+    
+        text-align: center;
+    }
+
+    sub{
+         text-decoration: rgb(246, 245, 236) wavy underline;
+    }
+
+    sup{
+         text-decoration: rgb(60, 57, 121) wavy underline;
+    }
+   
+.image-canvas {
+    position: relative;
+    width: 100%;
+    height: 900px;   
+    margin-top: 60px;
+}
+
+
+.image-canvas a {
+    position: absolute;
+}
+
+/*left top*/
+.img-a {
+    top: 0px;
+    left: 10%;
+}
+
+/*middle*/
+.img-c {
+    top: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* bottom right*/
+.img-b {
+    top: 570px;
+    right: 15%;
+}
+
+.p1{
+    background-color: rgba(11, 61, 61, 0.1);
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <h1>MY<sub> travel</sub> in<sup>Turkey</sup></h1>
+
+    
+
+    <p>
+        This is a personal memory space.
+        It collects small moments from my travel in Turkey.
+    </p>
+
+    <h2><sub>Memory</sub> <sup>Shelf</sup></h2>
+
+   
+
+    <p>
+    
+        <span>Click</span> the image to return to the related page.
+    </p>
+
+<p class="image-canvas">
+
+    
+    <a href="cat.html" class="img-a">
+        <img src="image/istanbul cat.jpg" alt="Travel memory image">
+    </a>
+
+  
+    <a href="istanbul.html" class="img-c">
+        <img src="image/street view.jpg" alt="Street view in Turkey">
+    </a>
+
+   
+    <a href="cappadocia.html" class="img-b">
+        <img src="image/reqiqiu.jpg" alt="Landscape in Turkey">
+    </a>
+
+</p>
+    <div>
+        <p class="p1">
+            This website does not try to explain everything.
+            It holds fragments instead of full stories ：）
+        </p>
+    </div>
+
+</body>
+</html>

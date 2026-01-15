@@ -1,0 +1,107 @@
+body {
+    background-image: url("image/sea.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 40px;
+    font-family: "Georgia", serif;
+    color: #1f2f2f;
+    line-height: 1.6;
+    text-align: center;
+    animation: fadeInBody 2s ease forwards;
+}
+
+@keyframes fadeInBody {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: #0b3d3d;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    animation: floatDown 1.8s ease forwards;
+}
+
+@keyframes floatDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 60px;
+    border-bottom: 2px solid #0b3d3d;
+    padding-bottom: 5px;
+    width: 300px;
+    animation: fadeUp 2s ease forwards;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 8px;
+    animation: fadeUp 2s ease forwards;
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+ul {
+    list-style: circle;
+}
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: white;
+    font-family: kaeru kaeru;
+    font-stretch: expanded;
+    font-size: 300%;
+    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
+    text-decoration: rgb(157, 17, 164) wavy underline;
+}
+
+p {
+    color:blueviolet;
+    background-color: lavender;
+    padding: 10px;
+    font-family: monospace;
+}
+
+ul {
+    color:rgba(63, 5, 108, 0.742); 
+    background-color: lavender;
+    font-size: 150%;
+    font-family: kaeru kaeru;
+    margin: 30px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+figcaption{
+    color:rgb(176, 225, 163);
+    font-family: monospace;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.special {
+    background: lavender url('img/nature.webp') no-repeat center;
+    background-size: 100%;
+}

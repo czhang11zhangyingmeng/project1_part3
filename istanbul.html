@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Istanbul — Travel Memory</title>
+
+    <style>
+        
+        body {
+             background: url("image/better bg.jpg") center/cover no-repeat fixed;
+            margin: 90px;
+            font-family: "Georgia", serif;
+            line-height: 1.8;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            
+        }
+
+
+        
+        h1 {
+            font-size: 52px;
+            font-weight: 700;  
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+            -webkit-text-stroke: 1.5px rgb(15, 15, 15);
+        }
+
+      
+        h2 {
+            font-size: 35px;
+            font-weight: 600;
+            margin-top: 50px;
+            margin-bottom: 25px;
+            letter-spacing: 1px;
+            text-decoration: rgb(237, 192, 11) wavy underline;
+            -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+        }
+
+       
+        p {
+            font-size: 17px;
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 22px 26px;
+            border-radius: 12px;
+            font-weight: 500;
+            animation: fadeUp 2s ease forwards;
+        }
+
+      
+     
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px auto;
+            max-width: 850px;
+            padding: 20px 0;
+        }
+
+        li {
+            font-size: 17px;
+            font-weight: 600;
+            padding: 18px 22px;
+            border-radius: 14px;
+            background-color: rgba(255, 255, 255, 0.08);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            animation: listAppear 2s ease forwards;
+        }
+
+        li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.55);
+        }
+
+        @keyframes listAppear {
+            from { opacity: 0; transform: scale(0.96); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        
+        img {
+            height: 400px;
+            margin: 35px 18px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+            animation: imgRise 2.5s ease forwards;
+        }
+
+        img:hover {
+            transform: translateY(-6px) scale(1.02);
+            box-shadow: 0 20px 44px rgba(0, 0, 0, 0.65);
+        }
+
+        @keyframes imgRise {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        
+        div p {
+            max-width: 650px;
+            margin: 50px auto 0 auto;
+            padding: 25px 30px;
+            background-color: rgba(255, 255, 255, 0.05);
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 60px;
+            font-size: 16px;
+            letter-spacing: 1px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            border-bottom: 1px solid rgb(255, 255, 255);
+            padding-bottom: 4px;
+            transition: opacity 0.3s ease;
+        }
+
+        a:hover {
+            opacity: 0.6;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Istanbul</h1>
+
+    <p>
+        I walked through the city slowly.
+        The streets were crowded and loud.
+        I did not try to understand everything.
+    </p>
+
+    <h2>F<sub>r</sub>a<sup>g</sup>m<sub>e</sub>n<sup>t</sup>s</h2>
+
+    <ul>
+        
+        <li>The sound of prayer in the distance</li>
+        <li>Small shops on narrow streets</li>
+    </ul>
+
+    <img src="image/street view.jpg" alt="Landscape in Turkey">
+    <img src="image/street view2.jpg" alt="Landscape in Turkey">
+
+ 
+
+    <p>
+        Some moments felt <sub>heavy</sub>.
+        Some moments felt <sup>light</sup>.
+    </p>
+
+    <div>
+        <p>
+            This page is not complete.
+            It may change over time.
+        </p>
+    </div>
+
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
